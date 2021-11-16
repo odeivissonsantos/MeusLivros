@@ -34,7 +34,7 @@ public class Usuario implements Serializable {
     private LocalDate dataCadastro;
 
     @Column
-    @NotNull(message = "Campo EMAIL é obrigatório!")
+    @NotNull(message = "Campo EMAIL é obrigatório!!")
     @Email(message = "Campo EMAIL está inválido!")
     private String email;
 
